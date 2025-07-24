@@ -5,25 +5,20 @@ public class Dog extends Animal {
 	String dogTail;
 	
 	public Dog() {
-		super();
-		// TODO Auto-generated constructor stub
+		super(); //부모클래스의 생성자 호출
+		
 	}	
 
-	public Dog(String name, int age, String sound, int legCount) {
-		super(name, age, sound, legCount);
-		// TODO Auto-generated constructor stub
+	public Dog(String dogTail) {
+		super();
+		this.dogTail = dogTail;
+	}
+	
+	public Dog(String name, int age) {
+		super(name, age);
+		
 	}
 
-
-	public Dog(String sound, int legCount) {
-		super(sound, legCount);
-		// TODO Auto-generated constructor stub
-	}
-
-	public Dog(String name) {
-		super(name);
-		// TODO Auto-generated constructor stub
-	}
 
 
 
