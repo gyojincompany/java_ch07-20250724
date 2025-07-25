@@ -35,6 +35,11 @@ public class MainClass {
 		
 		myCar.rearTire = new HankookTire();
 		
+		HankookTire hanTire = new HankookTire();
+		KumhoTire kumTire = new KumhoTire();
+		
+		myCar.tirePrint(hanTire); //
+		myCar.tirePrint(kumTire);
 		
 		
 		
